@@ -1,0 +1,15 @@
+{
+  "name": "clyx_117m",
+  "description": "Clyx 0.2 | 1.5BTokens. | BASE",
+  "vocab_size": 32000,
+  "hidden_size": 768,
+  "num_layers": 12,
+  "num_heads": 12,
+  "max_position_embeddings": 2048,
+  "intermediate_size": 2048,
+  "norm_eps": 0.000001,
+  "attn_dropout": 0.0,
+  "resid_dropout": 0.0,
+  "tie_word_embeddings": true,
+  "gradient_checkpointing": false
+}
