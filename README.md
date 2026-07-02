@@ -39,8 +39,6 @@
 
 **Early-stage / personal project.** Trained a small model (**Clyx 0.2 — 115.67M BASE**) as a proof of concept.
 
-> **Note:** This is a single-file pipeline (scraping + preprocessing + training + optimization combined). Refactoring into modules is planned.
-
 ---
 
 ## Clyx 0.2 — 115.67M BASE
@@ -130,27 +128,6 @@ state_dict = load_file("model.safetensors")
 
 ---
 
-## Project Structure
-
-```
-Clyx/
-├── main.py                    # Main training pipeline (scrape → preprocess → train)
-├── prepare.py                 # Data preparation & tokenization
-├── download_data.py           # Web scraping & dataset building
-├── agent_runtime.py           # Agent-based inference runtime
-├── run_agent.py               # Agent execution entry point
-├── run_chat.py                # Interactive chat interface
-├── export_bundle.py           # Model bundle export (safetensors)
-├── rescue_checkpoint.py       # Checkpoint recovery utilities
-├── doctor.py                  # Environment diagnostics
-├── requirements.txt           # Python dependencies
-└── configs/
-    ├── model_117m.json        # Clyx 117M model config
-    ├── model_300m_t4_experimental.json
-    ├── model_testagentic.json
-    └── Roblox_agentic.json
-```
-
 ## Quick Start
 
 ```bash
@@ -193,14 +170,6 @@ Edit files in `configs/` to adjust architecture. Example — `model_117m.json`:
   "tie_word_embeddings": true
 }
 ```
-
-## Roadmap
-
-- [ ] Refactor single-file pipeline into modular architecture
-- [ ] Clyx 0.3 — larger model (300M+ parameters)
-- [ ] Instruction tuning / chat variant
-- [ ] ClyxBox pip package improvements
-- [ ] Multi-GPU distributed training support
 
 ## Links
 
