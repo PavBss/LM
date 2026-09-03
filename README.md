@@ -2,7 +2,7 @@
   <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="200"/>
 </p>
 
-<h1 align="center">Clyx — Custom Language Model Training Pipeline</h1>
+<h1 align="center">Clyx Custom Language Model Training Pipeline</h1>
 
 <p align="center">
   <strong>Pipeline for building a custom dataset and fine-tuning a language model from scratch.</strong>
