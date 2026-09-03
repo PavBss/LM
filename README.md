@@ -128,30 +128,6 @@ state_dict = load_file("model.safetensors")
 
 ---
 
-## Quick Start
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Scrape and build dataset
-python download_data.py
-
-# Prepare tokenized data for training
-python prepare.py
-
-# Full training pipeline
-python main.py --config configs/model_117m.json
-
-# Interactive chat
-python run_chat.py
-
-# Agent mode
-python run_agent.py
-
-# Export model
-python export_bundle.py
-```
 
 ## Model Configuration
 
