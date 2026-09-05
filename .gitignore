@@ -26,7 +26,7 @@ env/
 Thumbs.db
 desktop.ini
 
-# Model files (large)
+# Model files
 *.safetensors
 *.pt
 *.pth
@@ -34,7 +34,7 @@ desktop.ini
 *.ckpt
 checkpoints/
 
-# Data & logs (generated at runtime)
+# Data & logs
 data/
 logs/
 
